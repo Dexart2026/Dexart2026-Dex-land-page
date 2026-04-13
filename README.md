@@ -39,7 +39,7 @@ A proposta do layout foi unir estética moderna, clareza visual e experiência r
 
 ## Clone esse repositório ##
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Dexart2026/Dexart2026-Dex-land-page.git
 ```
 ## Estrutura do projeto
 
