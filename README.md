@@ -10,7 +10,7 @@ A proposta do layout foi unir estética moderna, clareza visual e experiência r
 
 ![Preview da Landing Page](./imagens/Print1.png)
 
-[Ver projeto online](https://seu-link-aqui.com)
+[Ver projeto online](https://dexart2026.github.io/Dexart2026-Dex-land-page/)
 
 ## Funcionalidades
 
