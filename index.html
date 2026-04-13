@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia Imperial</title>
+    <meta name="description"
+        content="Landing page moderna para barbearia, com foco em estilo, serviços e agendamento pelo WhatsApp." />
+
+    <link rel="icon" href="imagens/Coroa_de_Reinado_PNG_Transparente.png" type="image/png" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="barber.css" />
+</head>
+
+<body>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+
+    <header class="header">
+        <div class="container nav">
+            <a href="#home" class="logo"> 🜲 Barbearia <span>Imperial</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" type="button">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+                <div class="hero-badge reveal">
+                    <i class="fa-solid fa-star"></i>
+                    Atendimento premium para o seu estilo
+                </div>
+
+                <p class="hero-tag reveal">Estilo, presença e cuidado em cada detalhe</p>
+
+                <h1 class="reveal delay-1">Seu visual começa com um corte de respeito.</h1>
+
+                <p class="hero-text reveal delay-2">
+                    Cortes modernos, barba alinhada e atendimento de qualidade para quem
+                    valoriza presença, confiança e estilo em cada detalhe.
+                </p>
+
+                <div class="hero-buttons reveal delay-3">
+                    <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer"
+                        class="btn btn-primary magnetic">
+                        <i class="fa-brands fa-whatsapp"></i> Agendar agora
+                    </a>
+
+                    <a href="#servicos" class="btn btn-secondary magnetic">Ver serviços</a>
+                </div>
+
+                <div class="hero-stats reveal delay-4">
+                    <div class="hero-stat">
+                        <strong>+500</strong>
+                        <span>Clientes atendidos</span>
+                    </div>
+                    <div class="hero-stat">
+                        <strong>Premium</strong>
+                        <span>Experiência e cuidado</span>
+                    </div>
+                    <div class="hero-stat">
+                        <strong>Seg a Sáb</strong>
+                        <span>Horários flexíveis</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="sobre">
+            <div class="container about-grid">
+                <div class="about-image reveal">
+                    <img src="https://images.unsplash.com/photo-1622287162716-f311baa1a2b8?auto=format&fit=crop&w=1000&q=80"
+                        alt="Interior de uma barbearia moderna" />
+                </div>
+
+                <div class="about-text reveal">
+                    <span class="section-label">Sobre nós</span>
+                    <h2>Mais que um corte, uma experiência.</h2>
+                    <p>
+                        Na Barbearia Imperial, unimos tradição, presença e atendimento
+                        personalizado para oferecer um serviço de alto nível em um ambiente
+                        moderno e acolhedor.
+                    </p>
+                    <p>
+                        Nosso objetivo é valorizar sua imagem com cortes, barba e acabamento
+                        feitos com técnica, atenção aos detalhes e muito estilo.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="servicos">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Serviços</span>
+                    <h2>O cuidado certo para o seu estilo</h2>
+                    <p>
+                        Serviços pensados para valorizar seu visual com qualidade e atenção
+                        aos detalhes.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <article class="service-card reveal tilt-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-scissors"></i>
+                        </div>
+                        <h3>Corte masculino</h3>
+                        <p>Cortes modernos, sociais e personalizados de acordo com seu estilo.</p>
+                    </article>
+
+                    <article class="service-card reveal tilt-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <h3>Barba</h3>
+                        <p>Modelagem, alinhamento e acabamento para uma barba impecável.</p>
+                    </article>
+
+                    <article class="service-card reveal tilt-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-fire-flame-curved"></i>
+                        </div>
+                        <h3>Corte + barba</h3>
+                        <p>Combinação ideal para renovar o visual com presença e praticidade.</p>
+                    </article>
+
+                    <article class="service-card reveal tilt-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-spray-can-sparkles"></i>
+                        </div>
+                        <h3>Hidratação</h3>
+                        <p>Tratamentos para cabelo e barba com acabamento profissional.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery section" id="galeria">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-label">Galeria</span>
+                    <h2>Ambiente e estilo</h2>
+                    <p>Um espaço criado para quem gosta de se cuidar com personalidade.</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item reveal mouse-gallery">
+                        <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=900&q=80"
+                            alt="Corte masculino na barbearia" />
+                    </div>
+
+                    <div class="gallery-item reveal mouse-gallery">
+                        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=80"
+                            alt="Barbeiro trabalhando" />
+                    </div>
+
+                    <div class="gallery-item reveal mouse-gallery">
+                        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=80"
+                            alt="Produtos e ambiente de barbearia" />
+                    </div>
+
+                    <div class="gallery-item reveal mouse-gallery">
+                        <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=900&q=80"
+                            alt="Cliente na cadeira da barbearia" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contato">
+            <div class="container contact-box reveal">
+                <span class="section-label">Contato</span>
+                <h2>Agende seu horário</h2>
+                <p>
+                    Entre em contato pelo WhatsApp e marque seu atendimento com rapidez.
+                </p>
+
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-location-dot"></i> Rua Exemplo, 123 - Centro</p>
+                    <p><i class="fa-solid fa-clock"></i> Seg a Sáb - 09h às 20h</p>
+                    <p><i class="fa-solid fa-phone"></i> (00) 00000-0000</p>
+                </div>
+
+                <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-primary magnetic">
+                    <i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <a href="https://wa.me/5500000000000" class="whatsapp-float" target="_blank" rel="noopener noreferrer"
+        aria-label="Falar no WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo" type="button">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Barbearia Imperial - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="barber.js"></script>
+</body>
+
+</html>
